@@ -1,6 +1,7 @@
 ## Code your solution below. Note that your SQL queries should be in quotation marks.
 
 def highest_student_gpa
+  #I should have used SELECT MAX(gpa) without ORDER BY & LIMIT
   "SELECT gpa
   FROM students
   ORDER BY gpa DESC
@@ -8,6 +9,7 @@ def highest_student_gpa
 end
 
 def lowest_student_gpa
+  #I should have used SELECT MIN(gpa) without ORDER BY & LIMIT
   "SELECT gpa
   FROM students
   ORDER BY gpa
